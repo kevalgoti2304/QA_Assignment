@@ -9,7 +9,6 @@ namespace Assignment01
     public class Program
     {
         Rectangle rectangle = new Rectangle();
-        Rectangle rectangle1 = new Rectangle();
 
         static void Main(string[] args)
         {
@@ -80,7 +79,7 @@ namespace Assignment01
                 switch (choice)
                 {
                     case '1':
-                        rectangle.GetLength();
+                        Console.WriteLine("\nLength of Rectangle: " + rectangle.GetLength());
                         break;
 
                     case '2':
@@ -88,17 +87,22 @@ namespace Assignment01
                         try
                         {
                             newLength = int.Parse(Console.ReadLine());
-                            rectangle.ChangeLength(newLength);
+                            if (newLength < 1)
+                            {
+                                newLength = 1;
+                            }
+                            rectangle.SetLength(newLength);
+                            Console.WriteLine("The length of your rectangle is now: " + rectangle.GetLength());
                         }
                         catch (Exception ex)
                         {
-                            Console.WriteLine("That's not a valid input, please try again.\n");
+                            Console.WriteLine("That's not a valid input, please try again.\n"+ ex.Message);
                             break;
                         }
                         break;
 
                     case '3':
-                        rectangle.GetWidth();
+                        Console.WriteLine("\nWidth of Rectangle: " + rectangle.GetWidth());                     
                         break;
 
                     case '4':
@@ -106,25 +110,29 @@ namespace Assignment01
                         try
                         {
                             newWidth = int.Parse(Console.ReadLine());
-                            rectangle.ChangeWidth(newWidth);
+                            if (newWidth < 1)
+                            {
+                                newWidth = 1;
+                            }
+                            rectangle.SetWidth(newWidth);                            
+                            Console.WriteLine("The width of your rectangle is now: " + rectangle.GetWidth());
                         }
                         catch (Exception ex)
                         {
-                            Console.WriteLine("That's not a valid input, please try again.\n");
+                            Console.WriteLine("That's not a valid input, please try again.\n"+ ex.Message);
                             break;
                         }
                         break;
                     case '5':
-                        rectangle.GetPerimeter();
+                        Console.WriteLine("\nRectangle Perimeter: " + rectangle.GetPerimeter());                        
                         break;
 
                     case '6':
-                        rectangle.GetArea();
+                        Console.WriteLine("\nRectangle Area: " + rectangle.GetArea());
                         break;
 
                     case '7':
                         break;
-
 
                     default:
                         Console.WriteLine("\nThat's not a valid input, Please select from the choices");

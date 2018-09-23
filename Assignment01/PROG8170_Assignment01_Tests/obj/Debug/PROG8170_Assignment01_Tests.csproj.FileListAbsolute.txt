@@ -1,0 +1,12 @@
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\bin\Debug\PROG8170_Assignment01_Tests.dll
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\bin\Debug\PROG8170_Assignment01_Tests.pdb
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\bin\Debug\Assignment01.exe
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\bin\Debug\nunit.framework.dll
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\bin\Debug\Assignment01.pdb
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\bin\Debug\Assignment01.exe.config
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\bin\Debug\nunit.framework.xml
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\obj\Debug\PROG8170_Assignment01_Tests.csprojAssemblyReference.cache
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\obj\Debug\PROG8170_Assignment01_Tests.csproj.CoreCompileInputs.cache
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\obj\Debug\PROG8170_Assignment01_Tests.csproj.CopyComplete
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\obj\Debug\PROG8170_Assignment01_Tests.dll
+E:\Conestoga level 2\QA_Assignment01\Assignment01\PROG8170_Assignment01_Tests\obj\Debug\PROG8170_Assignment01_Tests.pdb

@@ -5,3 +5,13 @@ E:\Conestoga level 2\QA\Assignment01\Assignment01\obj\Debug\Assignment01.csprojA
 E:\Conestoga level 2\QA\Assignment01\Assignment01\obj\Debug\Assignment01.csproj.CoreCompileInputs.cache
 E:\Conestoga level 2\QA\Assignment01\Assignment01\obj\Debug\Assignment01.exe
 E:\Conestoga level 2\QA\Assignment01\Assignment01\obj\Debug\Assignment01.pdb
+E:\Conestoga level 2\QA_Assignment01\Assignment01\Assignment01\bin\Debug\Assignment01.exe.config
+E:\Conestoga level 2\QA_Assignment01\Assignment01\Assignment01\bin\Debug\Assignment01.exe
+E:\Conestoga level 2\QA_Assignment01\Assignment01\Assignment01\bin\Debug\Assignment01.pdb
+E:\Conestoga level 2\QA_Assignment01\Assignment01\Assignment01\bin\Debug\nunit.framework.dll
+E:\Conestoga level 2\QA_Assignment01\Assignment01\Assignment01\bin\Debug\nunit.framework.xml
+E:\Conestoga level 2\QA_Assignment01\Assignment01\Assignment01\obj\Debug\Assignment01.csprojAssemblyReference.cache
+E:\Conestoga level 2\QA_Assignment01\Assignment01\Assignment01\obj\Debug\Assignment01.csproj.CoreCompileInputs.cache
+E:\Conestoga level 2\QA_Assignment01\Assignment01\Assignment01\obj\Debug\Assignment01.csproj.CopyComplete
+E:\Conestoga level 2\QA_Assignment01\Assignment01\Assignment01\obj\Debug\Assignment01.exe
+E:\Conestoga level 2\QA_Assignment01\Assignment01\Assignment01\obj\Debug\Assignment01.pdb
