@@ -37,7 +37,7 @@ namespace PROG8170_Assignment01_Tests
             Rectangle testRectangle = new Rectangle(l, w);
 
             //Act
-            int length = testRectangle.GetLength();
+            int length = testRectangle.SetLength(l);
 
             //Assert
             Assert.AreEqual(length, l);
@@ -69,7 +69,7 @@ namespace PROG8170_Assignment01_Tests
             Rectangle testRectangle = new Rectangle(l, w);
 
             //Act
-            int width = testRectangle.GetWidth();
+            int width = testRectangle.SetWidth(w);
 
             //Assert
             Assert.AreEqual(width, w);
