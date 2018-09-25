@@ -8,9 +8,9 @@ namespace Assignment01
 {
     public class Rectangle
     {
-        private int length = 0;
-        private int width = 0;
-        private int area = 0;
+        private int length;
+        private int width;
+        private int area;
 
         public int Length { get => length; set => length = value; }
         public int Width { get => width; set => width = value; }

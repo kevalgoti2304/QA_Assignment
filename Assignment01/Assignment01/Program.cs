@@ -45,7 +45,6 @@ namespace Assignment01
             return true;
         }
 
-
         public void Go()
         {
             int newWidth = 0;
