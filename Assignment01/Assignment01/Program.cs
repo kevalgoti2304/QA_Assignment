@@ -89,6 +89,8 @@ namespace Assignment01
                             if (newLength < 1)
                             {
                                 newLength = 1;
+                                Console.WriteLine("New length is less then one..Setting default value as 1");
+
                             }
                             rectangle.SetLength(newLength);
                             Console.WriteLine("The length of your rectangle is now: " + rectangle.GetLength());
@@ -112,6 +114,7 @@ namespace Assignment01
                             if (newWidth < 1)
                             {
                                 newWidth = 1;
+                                Console.WriteLine("New width is less then one..Setting default value as 1");
                             }
                             rectangle.SetWidth(newWidth);                            
                             Console.WriteLine("The width of your rectangle is now: " + rectangle.GetWidth());
