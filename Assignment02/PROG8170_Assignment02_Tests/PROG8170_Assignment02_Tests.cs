@@ -11,7 +11,7 @@ namespace PROG8170_Assignment02_Tests
     [TestFixture]
     public class PROG8170_Assignment02_Tests
     {
-        //Test Case for  GetLength Method
+        //Test Case 1 for Analyze Method
         [Test]
         public void Analyze_input2and2and2_expectedResultEqualsEquilateral()
         {
@@ -21,15 +21,16 @@ namespace PROG8170_Assignment02_Tests
             int dimensionThree = 2;
             string expectedResult = "Equilateral";
 
-             TriangleSolver testRectangle = new TriangleSolver();
+             TriangleSolver testTriangle = new TriangleSolver();
 
             //Act
-            string result = testRectangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
+            string result = testTriangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
 
             //Assert
             Assert.AreEqual(result, expectedResult);
         }
 
+        //Test Case 2 for Analyze Method
         [Test]
         public void Analyze_input3and4and5_expectedResultEqualsScalene()
         {
@@ -39,15 +40,16 @@ namespace PROG8170_Assignment02_Tests
             int dimensionThree = 5;
             string expectedResult = "Scalene";
 
-            TriangleSolver testRectangle = new TriangleSolver();
+            TriangleSolver testTriangle = new TriangleSolver();
 
             //Act
-            string result = testRectangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
+            string result = testTriangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
 
             //Assert
             Assert.AreEqual(result, expectedResult);
         }
 
+        //Test Case 3 for Analyze Method
         [Test]
         public void Analyze_input4and5and4_expectedResultEqualsIsosceles()
         {
@@ -57,15 +59,16 @@ namespace PROG8170_Assignment02_Tests
             int dimensionThree = 4;
             string expectedResult = "Isosceles";
 
-            TriangleSolver testRectangle = new TriangleSolver();
+            TriangleSolver testTriangle = new TriangleSolver();
 
             //Act
-            string result = testRectangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
+            string result = testTriangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
 
             //Assert
             Assert.AreEqual(result, expectedResult);
         }
 
+        //Test Case 4 for Analyze Method
         [Test]
         public void Analyze_input6and6and6_expectedResultEqualsEquilateral()
         {
@@ -75,15 +78,16 @@ namespace PROG8170_Assignment02_Tests
             int dimensionThree = 6;
             string expectedResult = "Equilateral";
 
-            TriangleSolver testRectangle = new TriangleSolver();
+            TriangleSolver testTriangle = new TriangleSolver();
 
             //Act
-            string result = testRectangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
+            string result = testTriangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
 
             //Assert
             Assert.AreEqual(result, expectedResult);
         }
 
+        //Test Case 5 for Analyze Method
         [Test]
         public void Analyze_input1000and1001and1002_expectedResultEqualsScalene()
         {
@@ -93,15 +97,16 @@ namespace PROG8170_Assignment02_Tests
             int dimensionThree = 1002;
             string expectedResult = "Scalene";
 
-            TriangleSolver testRectangle = new TriangleSolver();
+            TriangleSolver testTriangle = new TriangleSolver();
 
             //Act
-            string result = testRectangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
+            string result = testTriangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
 
             //Assert
             Assert.AreEqual(result, expectedResult);
         }
 
+        //Test Case 6 for Analyze Method
         [Test]
         public void Analyze_input22and22and23_expectedResultEqualsIsosceles()
         {
@@ -111,17 +116,18 @@ namespace PROG8170_Assignment02_Tests
             int dimensionThree = 23;
             string expectedResult = "Isosceles";
 
-            TriangleSolver testRectangle = new TriangleSolver();
+            TriangleSolver testTriangle = new TriangleSolver();
 
             //Act
-            string result = testRectangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
+            string result = testTriangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
 
             //Assert
             Assert.AreEqual(result, expectedResult);
         }
 
+        //Test Case 7 for Analyze Method
         [Test]
-        public void Analyze_input2and2and2_expectedResultEqualsScalene()
+        public void Analyze_input20and12and23_expectedResultEqualsScalene()
         {
             //Arrange
             int dimensionOne = 20;
@@ -129,15 +135,16 @@ namespace PROG8170_Assignment02_Tests
             int dimensionThree = 23;
             string expectedResult = "Scalene";
 
-            TriangleSolver testRectangle = new TriangleSolver();
+            TriangleSolver testTriangle = new TriangleSolver();
 
             //Act
-            string result = testRectangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
+            string result = testTriangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
 
             //Assert
             Assert.AreEqual(result, expectedResult);
         }
 
+        //Test Case 8 for Analyze Method
         [Test]
         public void Analyze_input7and7and7_expectedResultEqualsEquilateral()
         {
@@ -147,10 +154,10 @@ namespace PROG8170_Assignment02_Tests
             int dimensionThree = 7;
             string expectedResult = "Equilateral";
 
-            TriangleSolver testRectangle = new TriangleSolver();
+            TriangleSolver testTriangle = new TriangleSolver();
 
             //Act
-            string result = testRectangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
+            string result = testTriangle.Analyze(dimensionOne, dimensionTwo, dimensionThree);
 
             //Assert
             Assert.AreEqual(result, expectedResult);
