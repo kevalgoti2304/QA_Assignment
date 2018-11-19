@@ -8,20 +8,20 @@ public class CalculatorTest {
     Calculator c = new Calculator();
 
     @Test
-    public void testAddition_input10and20_output30() {
+    public void testAddition_inputNegativeTenAndNegativeTwenty_outputNegativeThirty() {
         // 1. Arrange
-        double i = 10;
-        double j = 20;
+        double i = -10;
+        double j = -20;
 
         // 2. Act
         double result = c.addition(i, j);
 
         // 3. Assert
-        assertEquals(30.0, result,1);
+        assertEquals(-30.0, result,1);
     }
 
     @Test
-    public void testAddition_threeAndNegativeTwoPointFive_zeroPointFive(){
+    public void testAddition_inputThreeAndNegativeTwoPointFive_outputZeroPointFive(){
         // 1. Arrange
         double i = 3.0;
         double j = -2.5;
@@ -34,7 +34,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testAddition_negativeFiveAndNegativeThreePointSix_eightPointSix(){
+    public void testAddition_inputNegativeFiveAndNegativeThreePointSix_outputEightPointSix(){
         // 1. Arrange
         double i = -5.0;
         double j = -3.6;
@@ -49,19 +49,19 @@ public class CalculatorTest {
     // TEST CASES FOR SUBTRACTION
 
     @Test
-    public void testSubtraction_20and10_output10(){
+    public void testSubtraction_inputNegativeTwentyAndTen_outputNegativeThirty(){
         // 1. Arrange
-        double i = 20.0;
+        double i = -20.0;
         double j = 10.0;
 
         // 2. Act
         double result = c.subtraction(i, j);
 
         // 3. Assert
-        assertEquals(10.0, result, 1);
+        assertEquals(-30.0, result, 1);
     }
     @Test
-    public void testSubtraction_negativeSevenAndNegativeOne_outputNegativeEight(){
+    public void testSubtraction_inputNegativeSevenAndNegativeOne_outputNegativeEight(){
         // 1. Arrange
         double i = -7.0;
         double j = -1.0;
@@ -73,25 +73,25 @@ public class CalculatorTest {
         assertEquals(-6.0, result, 1);
     }
     @Test
-    public void testSubtraction_0and0_output0(){
+    public void testSubtraction_inputNegativeFiveAndZeroPointFive_outputNegativeFivePointFive(){
         // 1. Arrange
-        double i = 0;
-        double j = 0;
+        double i = -5;
+        double j = 0.5;
 
         // 2. Act
         double result = c.subtraction(i, j);
 
         // 3. Assert
-        assertEquals(0.0, result, 1);
+        assertEquals(-5.5, result, 1);
     }
 
     // TEST CASES FOR MULTIPLICATION
 
     @Test
-    public void testMultiplication_20And3_600(){
+    public void testMultiplication_inputNegativeTwentyAndNegativeThree_outputSixty(){
         // 1. Arrange
-        double i = 20;
-        double j = 3;
+        double i = -20;
+        double j = -3;
 
         // 2. Act
         double result = c.multiplication(i, j);
@@ -100,7 +100,7 @@ public class CalculatorTest {
         assertEquals(60.0, result, 1);
     }
     @Test
-    public void testMultiplication_negativeTwoPointThreeAndThree_outputSixPointNine(){
+    public void testMultiplication_inputNegativeTwoPointThreeAndThree_outputSixPointNine(){
         // 1. Arrange
         double i = -2.3;
         double j = 3;
@@ -112,10 +112,10 @@ public class CalculatorTest {
         assertEquals(-6.9, result, 1);
     }
     @Test
-    public void testMultiplication_zeroAndNegativeOne_outputZero(){
+    public void testMultiplication_inputZeroAndNegativeOnePointFive_outputZero(){
         // 1. Arrange
         double i = 0;
-        double j = -1;
+        double j = -1.5;
 
         // 2. Act
         double result = c.multiplication(i, j);
@@ -123,31 +123,31 @@ public class CalculatorTest {
         // 3. Assert
         assertEquals(0.0, result, 1);
     }
-   /* // TEST CASES FOR DIVISION
-
+    // TEST CASES FOR DIVISION
+/*
     @Test
-    public void testDivision_10and2_output5(){
+    public void testDivision_inputTenAndTwoPointFive_outputFour(){
         // 1. Arrange
         double i = 10;
-        double j = 2;
+        double j = 2.5;
 
         // 2. Act
         double result = c.division(i, j);
 
         // 3. Assert
-        assertEquals(5.0, result, 1);
+        assertEquals(4.0, result, 1);
     }
     @Test
-    public void testDivision_fiveAndTwo_outputTwoPointFive(){
+    public void testDivision_inputNegativeFiveAndTwo_outputTwoPointFive(){
         // 1. Arrange
-        double i = 5;
+        double i = -5;
         double j = 2;
 
         // 2. Act
         double result = c.division(i, j);
 
         // 3. Assert
-        assertEquals(2.5, result, 1);
+        assertEquals(-2.5, result, 1);
     }
     @Test
     public void testDivision_negativeSixAndNegativeThree_outputTwo(){
@@ -200,4 +200,5 @@ public class CalculatorTest {
         // 3. Assert
         assertEquals(3.0, result, 1);
     }
+
 }
