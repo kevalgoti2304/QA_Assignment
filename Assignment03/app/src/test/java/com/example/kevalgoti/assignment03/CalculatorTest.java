@@ -7,6 +7,8 @@ import static org.junit.Assert.*;
 public class CalculatorTest {
     Calculator c = new Calculator();
 
+    // TEST CASES FOR ADDITION
+
     @Test
     public void testAddition_inputNegativeTenAndNegativeTwenty_outputNegativeThirty() {
         // 1. Arrange
@@ -124,7 +126,7 @@ public class CalculatorTest {
         assertEquals(0.0, result, 1);
     }
     // TEST CASES FOR DIVISION
-/*
+
     @Test
     public void testDivision_inputTenAndTwoPointFive_outputFour(){
         // 1. Arrange
@@ -161,7 +163,7 @@ public class CalculatorTest {
         // 3. Assert
         assertEquals(2.0, result, 1);
     }
-*/
+
     // TEST CASES FOR DIVISION Que 7
 
     @Test
