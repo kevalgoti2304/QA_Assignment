@@ -1,0 +1,39 @@
+{
+  "name": "dashboard-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p & copy src\\index.html dist\\index.html & if not exist dist\\app mkdir dist\\app & xcopy /E assets dist\\app",
+    "start": "webpack-dev-server --content-base src\\ --inline --hot"
+  },
+  "author": "Keval Goti <kgoti3281@conestogac.on.ca>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "css-loader": "^0.28.9",
+    "dotenv-webpack": "^1.5.5",
+    "file-loader": "^1.1.6",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "prop-types": "^15.6.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.16.0",
+    "style-loader": "^0.20.1",
+    "superagent": "^3.8.2",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
